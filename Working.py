@@ -250,7 +250,7 @@ def write_to_xlsx(data, output_file, target_pid, process_name, ppid, threceive_c
     workbook.save(output_file)
 
 # Read the text file
-with open('17090_Cpu_Load_traceprintwide.txt', 'r') as file:
+with open('sample.txt', 'r') as file:
     text = file.read()
 
 # Prompt the user to enter a pid
